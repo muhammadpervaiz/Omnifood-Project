@@ -286,12 +286,12 @@ padding: 140px;
 .how-img-area-two{
     display: none;
 }
-.mobileimg{
+/* .mobileimg{
     height: 300px;
 
     width:500px;
     border-radius: 8px;
-}
+} */
 /* ************************* */
 /* meal section styling */
 /* ************************* */
@@ -382,12 +382,10 @@ padding: 140px;
        
         align-items: center;
     }
-    .feature-logo{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+    .ioniconf{
         display: none;
     }
+  
     /* ************************* */
 /* footer section styling */
 /* ************************* */
@@ -416,6 +414,21 @@ padding: 140px;
     align-items: center;
 
 
+}
+/* .link-side-li:first-child{ */
+    /* display:block; */
+/* } */
+.link-side-li:last-child{
+    display:block;
+}
+.header-link-side li{
+padding: 5px;
+}
+/* ************************* */
+/* omnifood main styling */
+/* ************************* */
+.main{
+   margin-top: 10px;
 }
 
 /* ************************* */
@@ -455,4 +468,82 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+}
+@media(max-width:600px){
+    /* ************************* */
+/* header styling */
+/* ************************* */
+/* ************************* */
+/* main styling */
+/* ************************* */
+.main-text-area-heading{
+    font-size: 32px;
+}
+/* ************************* */
+/* feature styling */
+/* ************************* */
+/* ************************* */
+/* how styling */
+/* ************************* */
+.how-heading2{
+    font-size: 32px;
+}
+.how-heading{
+    font-size: 24px;
+}
+.zindex{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* ************************* */
+/* meal styling */
+/* ************************* */
+.meal-text-heading2{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.pheading1{
+    font-size: 32px;
+}
+/* ************************* */
+/* testimonial styling */
+/* ************************* */
+.testimonialh2{
+    font-size: 32px;
+}
+.testimonialh1{
+    font-size: 24px;
+}
+.testimonial-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* ************************* */
+/* pricing styling */
+/* ************************* */
+.pricingbox{
+    padding: 10px;
+}
+.pricing-heading2{
+    font-size: 32px;
+}
+/* ************************* */
+/* features styling */
+/* ************************* */
+.feature-text{
+    text-align: center;
+    padding: 10px;
+}
+.feature-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* ************************* */
+/* cta styling */
+/* ************************* */
+.cta-text-area-heading{
+    font-size: 42px;
+}
+
 }

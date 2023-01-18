@@ -8,15 +8,7 @@ body{
 color:#737373;
 font-family: rubik;
 }
-/* .omnifoodproject{
-    font-family: Rubik;
-    padding:20px 100px;
-    margin:20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+
 .block1{
     background-color: #fdf2e9;
     box-sizing: border-box;
