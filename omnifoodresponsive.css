@@ -1,0 +1,458 @@
+
+@media(max-width:1500px){
+.text-area-gallery{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1300px){
+    /* ************************* */
+/* omnifood header styling */
+/* ************************* */
+.omnifood-header{
+    display: flex;
+    justify-content: space-between;
+    font-family: rubik;
+    background-color: #fdf2e9;
+}
+.header-logo-text{
+    font-size: 46px;
+    font-weight: 500;
+    color: #e69500;
+
+}
+.link-side-ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+/* ************************* */
+/* omnifood main styling */
+/* ************************* */
+
+.main{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 100px;
+    background-color: #fdf2e9;
+}
+
+.main-img{
+    height: 300px;
+}
+.main-text-area-heading{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: rubik;
+   
+}
+.main-text-area-pera{
+    font-size: 24px;
+}
+.text-area-gallery{
+    display:flex;
+    flex-direction: column;
+}
+/* ************************* */
+/* featu
+re-logosstyling */
+/* ************************* */
+.feature-logos-logo-area{
+    display: flex;
+    row-gap: 30px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    /* gap: 3%; */
+}
+.feature-logo{
+    width: 45%;
+}
+
+
+.feature-logos-logo-area:first-child{
+    display:none;
+}
+.feature-img{
+    height: 300px;
+    width: 100%;
+}
+/* ************************* */
+/* How styling */
+/* ************************* */
+.how-heading2{
+    font-family: rubik;
+    font-size: 48px;
+    font-weight: 500;
+}
+.how-img{
+    display: flex;
+
+    margin-top: 50px;
+  
+}
+.number-heading{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: rubik;
+}
+
+/* ************************* */
+/* meal section styling */
+/* ************************* */
+.meal-cart-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.meal-text-heading2{
+    
+    font-size: 48px;
+    font-weight: 400;
+}
+/* ************************* */
+/* testimonial styling */
+/* ************************* */
+
+
+/* ************************* */
+/* pricing section styling */
+/* ************************* */
+.pricing-heading2{
+    
+    font-size: 48px;
+    
+}
+.box-haeding{
+    font-size: 56px;
+    font-weight: 600;
+    
+}
+.box-li{
+   
+    font-size: 24px;
+ }
+
+/* ************************* */
+/* feature section styling */
+/* ************************* */
+
+
+
+/* ************************* */
+/* cta section styling */
+/* ************************* */
+.cta{
+    display:flex;
+  
+    
+}
+/* ************************* */
+/* footer section styling */
+/* ************************* */
+}
+.footer-text{
+    font-size: 24px;
+}
+.footer-icon{
+    font-size: 24px;
+}
+.footer-li{
+    
+ 
+    font-size: 18px;
+   
+    
+}
+@media(max-width:1200px){
+    /* ************************* */
+/* meal section styling */
+/* ************************* */
+    .cart{
+        max-width: 70%;
+       
+    }
+    .cart3{
+        padding: 50px;
+    }
+    .meal-cart-area{
+        
+        gap: 100px;
+        
+    
+    }
+
+}
+@media(max-width:1100px){
+     /* ************************* */
+/* omnifood header styling */
+/* ************************* */
+
+.header-logo-text{
+    font-size: 38px;
+    font-weight: 400;
+    color: #e69500;
+
+}
+.link-side-ul{
+
+    gap: 4px;
+ 
+}
+/* ************************* */
+/* omnifood main styling */
+/* ************************* */
+.main-text-button{
+display: flex;
+flex-wrap: wrap;
+
+gap: 10px;
+}
+/* ************************* */
+/* meal section styling */
+/* ************************* */
+.cart3{
+box-shadow: 2px 2px 5px #000000;
+padding: 140px;
+    
+}
+.cart1,.cart2,.cart3{
+    margin-top: 30px;
+}
+
+
+
+
+/* ************************* */
+/* testimonial styling */
+/* ************************* */
+.testimonial{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    column-gap: 10%;
+}
+.testimonial-gallery-img{
+    height:200px;
+    width: 100%;
+}
+}
+@media(max-width:1050px){
+    /* ************************* */
+/* omnifood header styling */
+/* ************************* */
+.link-side-li:first-child{
+    display: none;
+}
+.link-side-li:last-child{
+    display: none;
+}
+/* ************************* */
+/* omnifood main styling */
+/* ************************* */
+.main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.main-img-area{
+    display: flex;
+    justify-content: center;
+}
+/* ************************* */
+/* How styling */
+/* ************************* */
+.how-img{
+    display: flex;
+    flex-direction: column;
+}
+.how-img-area-two{
+    display: none;
+}
+.mobileimg{
+    height: 300px;
+
+    width:500px;
+    border-radius: 8px;
+}
+/* ************************* */
+/* meal section styling */
+/* ************************* */
+.cart3{
+    padding: 60px
+
+}
+/* ************************* */
+/* pricing section styling */
+/* ************************* */
+.pricing-heading1{
+    color: #e69500;
+    font-size: 24px;
+    font-weight: 600;
+}
+.pricing-heading2{
+    
+    font-size: 46px;
+    font-weight: 600;
+}
+.pricing-box-area{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.box-li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.0;
+    text-align: start;
+}
+/* ************************* */
+/* feature section styling */
+/* ************************* */
+.feature-heading,.ioniconf{
+    font-size: 24px;
+    font-weight: 300;
+}
+.feature-text{
+    text-align: left;
+    font-size: 18px;
+}
+/* ************************* */
+/* cta section styling */
+/* ************************* */
+.cta{
+    display: flex;
+
+}
+.cta-form{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media(max-width:800px){
+    /* ************************* */
+/* pricing section styling */
+/* ************************* */
+    .pricing-box-area{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* ************************* */
+/* meal section styling */
+/* ************************* */
+.cart3{
+    box-shadow: 2px 2px 5px #000000;
+    padding: 60px;
+        
+    }
+    .cart1,.cart2,.cart3{
+        margin-top: 30px;
+        max-width: 100%;    
+    }
+    /* ************************* */
+/* feature section styling */
+/* ************************* */
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .feature1,.feature2,.feature3,.feature4{
+        /* max-width: 45%; */
+        justify-content: center;
+       
+        align-items: center;
+    }
+    .feature-logo{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+    }
+    /* ************************* */
+/* footer section styling */
+/* ************************* */
+.omnifooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px auto; 
+    align-content: center;
+    justify-items: center;
+    /* column-gap: 10px; */
+}
+    .footer-box{
+        max-width: 50%;
+}
+
+}
+@media(max-width:600px){
+       /* ************************* */
+/* omnifood header styling */
+/* ************************* */
+
+.omnifood-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* ************************* */
+/* meal section styling */
+/* ************************* */
+.cart{
+    padding: 0;
+}
+.meal-cart-area{
+    
+    
+    justify-items: center;
+    column-gap: 2px;
+    padding: 0 1px;
+    margin: 5px 1px;
+}
+.cart3{
+    padding: 40px;
+}
+.pricingbox{
+    padding: 5px;
+}
+/* ************************* */
+/* testimonial styling */
+/* ************************* */
+.testimonial-area{
+    display: flex;
+ flex-direction: column;
+    padding: 10px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+}
