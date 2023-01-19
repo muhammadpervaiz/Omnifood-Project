@@ -547,7 +547,7 @@ re-logosstyling */
     overflow: hidden;
 }
 .cta-img-area{
-    background-image:linear-gradient(to right,hsla(39, 100%, 45%, 0.309),hsla(39, 82%, 89%, 0.309)),url("../weating.jpg.jpg");
+    background-image:linear-gradient(to right,hsla(39, 100%, 45%, 0.309),hsla(39, 82%, 89%, 0.309)),url("images/weating.jpg.jpg");
 background-size: cover;
 background-position: center;
 overflow: hidden;
