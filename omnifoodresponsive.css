@@ -1,25 +1,30 @@
 /* ************************* */
 @media(max-width:1630px){
- 
+ html{
+    font-size: 9px;
+ }
     .main-text-area-heading{
-         font-size: 6.2rem;
+         font-size: 5.8rem;
        }
        .meal-cart-area{
   padding: 0 1rem;
   margin:0 1rem;
-  column-gap: 2rem;
+  column-gap: 4rem;
     
     }
 }
 /* ************************* */
 @media(max-width:1561px){
     html{
-        font-size: 9px;
+        font-size: 8.5px;
     }
 
 }
 /* ************************* */
 @media(max-width:1416px){
+    html{
+        font-size: 8px;
+    }
     .main-text-area-heading{
         font-size: 6rem;
       }
@@ -83,7 +88,7 @@ html{
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        width: 50%;
+        width: 40%;
     
     }
     .meal{
