@@ -315,3 +315,11 @@ justify-items: center;
                 font-size: 4px;
             }
          }
+          /* ************************* */
+          @media(max-width:300px){
+            .text-area-gallery{
+                display: flex;
+                flex-direction: column;
+            }
+          
+          }
